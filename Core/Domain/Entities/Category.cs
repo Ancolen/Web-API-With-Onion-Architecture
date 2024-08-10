@@ -13,13 +13,13 @@ namespace Domain.Entities
         public Category(int parentId, string name, int queueId)
         {
             ParentID = parentId;
-            Name = name;
-            QueueID = queueId;
+            Name     = name;
+            QueueID  = queueId;
         }
-        public required int ParentID { get; set; }
-        public required string Name { get; set; }
-        public required int QueueID { get; set; }
-        public ICollection<Detail> Details { get; set; }
+        public required int         ParentID { get; set; }
+        public required string      Name     { get; set; }
+        public required int         QueueID  { get; set; }
+        public ICollection<Detail>  Details  { get; set; }
         public ICollection<Product> Products { get; set; }
     }
 }

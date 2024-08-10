@@ -14,34 +14,34 @@ namespace Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Detail> builder)
         {
-            Faker faker = new("tr");
+            Faker faker     = new("tr");
 
-            Detail detail1 = new()
+            Detail detail1  = new()
             {
-                ID = 1,
-                Title = faker.Lorem.Sentence(1), //
+                ID          = 1,
+                Title       = faker.Lorem.Sentence(1),
                 Description = faker.Lorem.Sentence(3),
-                CategoryID = 1,
+                CategoryID  = 1,
                 CreatedDate = DateTime.Now,
-                IsDeleted = false,
+                IsDeleted   = false,
             };
-            Detail detail2 = new()
+            Detail detail2  = new()
             {
-                ID = 2,
-                Title = faker.Lorem.Sentence(2), //
+                ID          = 2,
+                Title       = faker.Lorem.Sentence(2),
                 Description = faker.Lorem.Sentence(3),
-                CategoryID = 3,
+                CategoryID  = 3,
                 CreatedDate = DateTime.Now,
-                IsDeleted = false,
+                IsDeleted   = false,
             };
-            Detail detail3 = new()
+            Detail detail3  = new()
             {
-                ID = 3,
-                Title = faker.Lorem.Sentence(3), //
+                ID          = 3,
+                Title       = faker.Lorem.Sentence(3),
                 Description = faker.Lorem.Sentence(3),
-                CategoryID = 4,
+                CategoryID  = 4,
                 CreatedDate = DateTime.Now,
-                IsDeleted = true,
+                IsDeleted   = true,
             };
             builder.HasData(detail1, detail2, detail3);
         }

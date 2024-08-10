@@ -14,29 +14,29 @@ namespace Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            Faker faker = new ("tr");
+            Faker faker      = new ("tr");
 
             Product product1 = new()
             {
-                ID = 1,
-                Title = faker.Commerce.ProductName(),
-                Description = faker.Commerce.ProductDescription(),
-                BrandID = 1,
-                Discount = faker.Random.Decimal(0, 10),
-                Price = faker.Finance.Amount(50, 1000),
-                CreatedDate = DateTime.Now,
-                IsDeleted = false,
+                ID           = 1,
+                Title        = faker.Commerce.ProductName(),
+                Description  = faker.Commerce.ProductDescription(),
+                BrandID      = 1,
+                Discount     = faker.Random.Decimal(0, 10),
+                Price        = faker.Finance.Amount(50, 1000),
+                CreatedDate  = DateTime.Now,
+                IsDeleted    = false,
             };
             Product product2 = new()
             {
-                ID = 2,
-                Title = faker.Commerce.ProductName(),
-                Description = faker.Commerce.ProductDescription(),
-                BrandID = 3,
-                Discount = faker.Random.Decimal(0, 10),
-                Price = faker.Finance.Amount(50, 1000),
-                CreatedDate = DateTime.Now,
-                IsDeleted = false,
+                ID           = 2,
+                Title        = faker.Commerce.ProductName(),
+                Description  = faker.Commerce.ProductDescription(),
+                BrandID      = 3,
+                Discount     = faker.Random.Decimal(0, 10),
+                Price        = faker.Finance.Amount(50, 1000),
+                CreatedDate  = DateTime.Now,
+                IsDeleted    = false,
             };
             builder.HasData(product1, product2);
         }

@@ -13,14 +13,14 @@ namespace Domain.Entities
         public Detail() { }
         public Detail(string title, string description, int categoryId)
         {
-            Title = title;
+            Title       = title;
             Description = description;
-            CategoryID = categoryId;
+            CategoryID  = categoryId;
         }
-        public required string Title { get; set; }
+        public required string Title       { get; set; }
         public required string Description { get; set; }
-        public required int CategoryID { get; set; }
-        public Category Category { get; set; }
+        public required int    CategoryID  { get; set; }
+        public Category        Category    { get; set; }
 
     }
 }

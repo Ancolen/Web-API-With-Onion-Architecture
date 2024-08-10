@@ -18,28 +18,28 @@ namespace Persistence.Configurations
         {
             builder.Property(x=> x.Name).HasMaxLength(256);
 
-            Faker faker = new("tr");
+            Faker faker     = new("tr");
 
-            Brand brand1 = new()
+            Brand brand1    = new()
             {
-                ID = 1,
-                Name = faker.Commerce.Department(),
+                ID          = 1,
+                Name        = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
-                IsDeleted = false,
+                IsDeleted   = false,
             };
-            Brand brand2 = new()
+            Brand brand2    = new()
             {
-                ID = 2,
-                Name = faker.Commerce.Department(),
+                ID          = 2,
+                Name        = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
-                IsDeleted = false,
+                IsDeleted   = false,
             };
-            Brand brand3 = new()
+            Brand brand3    = new()
             {
-                ID = 3,
-                Name = faker.Commerce.Department(),
+                ID          = 3,
+                Name        = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
-                IsDeleted = true,
+                IsDeleted   = true,
             };
             builder.HasData(brand1, brand2, brand3);
         }
