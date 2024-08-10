@@ -80,8 +80,8 @@ namespace Application.Interfaces.Repositories
         /// <returns>
         /// Koşula uyan varlıkların listesini döner.
         /// </returns>
-        Task<IList<T>> GetAsync(Expression<Func<T, bool>> predicate,
-            Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null,
+        Task<T> GetAsync(Expression<Func<T, bool>> predicate,
+            Func<IQueryable<T>,IIncludableQueryable<T, object>>? include = null,
             bool enableTracking = false);
         /// <summary>
         /// Belirtilen koşula uyan kayıtları sorgulamak için bir IQueryable döner.
@@ -92,7 +92,7 @@ namespace Application.Interfaces.Repositories
         /// <returns>
         /// Koşula uyan varlıklar üzerinde ek işlemler yapabilmek için bir IQueryable döner.
         /// </returns>
-        IQueryable<T> Find(Expression<Func<T, bool>> predicate);
+        IQueryable<T> Find(Expression<Func<T, bool>> predicate, bool enableTracking = false);
         /// <summary>
         /// Belirtilen koşula uyan kayıtların sayısını asenkron olarak döner.
         /// </summary>
