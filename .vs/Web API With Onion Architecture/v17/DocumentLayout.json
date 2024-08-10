@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Migrations\\20240810201346_InitalCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrestructure\\Persistence\\Migrations\\20240810201346_InitalCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\infrestructure\\persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|solutionrelative:infrestructure\\persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\infrestructure\\persistence\\configurations\\detailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|solutionrelative:infrestructure\\persistence\\configurations\\detailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\core\\domain\\entities\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +27,44 @@
       "RelativeMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\core\\domain\\common\\ientitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\common\\ientitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\core\\domain\\common\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\common\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\core\\domain\\common\\ientitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\common\\ientitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\infrestructure\\persistence\\configurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|solutionrelative:infrestructure\\persistence\\configurations\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\infrestructure\\persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|solutionrelative:infrestructure\\persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF00400-5FE2-4655-9259-672D389980AE}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\infrestructure\\persistence\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|solutionrelative:infrestructure\\persistence\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\infrestructure\\persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3620826E-11DF-4570-ABC7-6C185D6FC426}|Infrestructure\\Persistence\\Persistence.csproj|solutionrelative:infrestructure\\persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,18 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|c:\\users\\merti\\onedrive\\masa\u00FCst\u00FC\\web api with onion architecture\\presentation\\api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C123745-2F1E-436A-A6E2-484C22C54FC0}|Presentation\\API\\API.csproj|solutionrelative:presentation\\api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,70 +87,162 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240810201346_InitalCreate.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Migrations\\20240810201346_InitalCreate.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Migrations\\20240810201346_InitalCreate.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Migrations\\20240810201346_InitalCreate.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Migrations\\20240810201346_InitalCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T20:13:46.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Registration.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Registration.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Registration.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Registration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T14:43:18.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Context\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Context\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Context\\AppDBContext.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Context\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAACKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T14:32:32.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\DetailConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Configurations\\DetailConfiguration.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\DetailConfiguration.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Configurations\\DetailConfiguration.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAywCwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:45:47.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwC8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:45:33.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:45:22.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BrandConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\BrandConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrestructure\\Persistence\\Configurations\\BrandConfiguration.cs",
+              "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Infrestructure\\Persistence\\Configurations\\BrandConfiguration.cs",
+              "RelativeToolTip": "Infrestructure\\Persistence\\Configurations\\BrandConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:45:11.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Product.cs",
               "RelativeToolTip": "Core\\Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T19:55:32.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Detail.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Detail.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Detail.cs",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Detail.cs",
               "RelativeToolTip": "Core\\Domain\\Entities\\Detail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T19:49:00.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Brand.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Brand.cs",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Brand.cs",
               "RelativeToolTip": "Core\\Domain\\Entities\\Brand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T15:08:46.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Category.cs",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Entities\\Category.cs",
               "RelativeToolTip": "Core\\Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T14:57:10.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "EntityBase.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Common\\EntityBase.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Common\\EntityBase.cs",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Common\\EntityBase.cs",
               "RelativeToolTip": "Core\\Domain\\Common\\EntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T14:54:56.377Z"
+              "WhenOpened": "2024-08-09T14:54:56.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IEntityBase.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Core\\Domain\\Common\\IEntityBase.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Common\\IEntityBase.cs",
@@ -130,11 +250,12 @@
               "RelativeToolTip": "Core\\Domain\\Common\\IEntityBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T14:53:22.38Z"
+              "WhenOpened": "2024-08-09T14:53:22.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\appsettings.json",
               "RelativeDocumentMoniker": "Presentation\\API\\appsettings.json",
@@ -142,23 +263,25 @@
               "RelativeToolTip": "Presentation\\API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-09T14:44:51.719Z"
+              "WhenOpened": "2024-08-09T14:44:51.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\API\\Program.cs",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\Program.cs",
               "RelativeToolTip": "Presentation\\API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T14:39:20.633Z"
+              "WhenOpened": "2024-08-09T14:39:20.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.Production.json",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\appsettings.Production.json",
               "RelativeDocumentMoniker": "Presentation\\API\\appsettings.Production.json",
@@ -166,23 +289,25 @@
               "RelativeToolTip": "Presentation\\API\\appsettings.Production.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-09T14:32:18.064Z"
+              "WhenOpened": "2024-08-09T14:32:18.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Presentation\\API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\appsettings.Development.json",
               "RelativeToolTip": "Presentation\\API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-09T14:30:21.564Z"
+              "WhenOpened": "2024-08-09T14:30:21.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\merti\\OneDrive\\Masa\u00FCst\u00FC\\Web API With Onion Architecture\\Presentation\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Presentation\\API\\Properties\\launchSettings.json",
@@ -190,7 +315,8 @@
               "RelativeToolTip": "Presentation\\API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-09T14:29:21.781Z"
+              "WhenOpened": "2024-08-09T14:29:21.781Z",
+              "EditorCaption": ""
             }
           ]
         }

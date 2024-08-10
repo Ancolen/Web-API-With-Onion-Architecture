@@ -30,7 +30,7 @@ namespace Persistence.Configurations
                 ID = 2,
                 Title = faker.Lorem.Sentence(2), //
                 Description = faker.Lorem.Sentence(3),
-                CategoryID = 4,
+                CategoryID = 3,
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,
             };
@@ -39,7 +39,7 @@ namespace Persistence.Configurations
                 ID = 3,
                 Title = faker.Lorem.Sentence(3), //
                 Description = faker.Lorem.Sentence(3),
-                CategoryID = 5,
+                CategoryID = 4,
                 CreatedDate = DateTime.Now,
                 IsDeleted = true,
             };

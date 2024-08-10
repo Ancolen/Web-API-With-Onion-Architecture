@@ -32,24 +32,13 @@ namespace Persistence.Configurations
                 ID = 2,
                 Title = faker.Commerce.ProductName(),
                 Description = faker.Commerce.ProductDescription(),
-                BrandID = 2,
-                Discount = faker.Random.Decimal(0, 10),
-                Price = faker.Finance.Amount(50, 1000),
-                CreatedDate = DateTime.Now,
-                IsDeleted = false,
-            };
-            Product product3 = new()
-            {
-                ID = 3,
-                Title = faker.Commerce.ProductName(),
-                Description = faker.Commerce.ProductDescription(),
                 BrandID = 3,
                 Discount = faker.Random.Decimal(0, 10),
                 Price = faker.Finance.Amount(50, 1000),
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,
             };
-            builder.HasData(product1, product2, product3);
+            builder.HasData(product1, product2);
         }
     }
 }

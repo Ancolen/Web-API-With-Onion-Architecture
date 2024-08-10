@@ -32,18 +32,9 @@ namespace Persistence.Configurations
                 IsDeleted = false,
                 CreatedDate = DateTime.Now,
             };
-            Category category3 = new()
-            {
-                ID = 3,
-                Name = "Cosmetic",
-                QueueID = 3,
-                ParentID = 0,
-                IsDeleted = false,
-                CreatedDate = DateTime.Now,
-            };
             Category Parent1 = new()
             {
-                ID = 4,
+                ID = 3,
                 Name = "Computer",
                 QueueID = 1,
                 ParentID = 1,
@@ -52,23 +43,14 @@ namespace Persistence.Configurations
             };
             Category Paren2 = new()
             {
-                ID = 5,
+                ID = 4,
                 Name = "Furniture",
                 QueueID = 1,
-                ParentID = 1,
+                ParentID = 2,
                 IsDeleted = false,
                 CreatedDate = DateTime.Now,
             };
-            Category Parent3 = new()
-            {
-                ID = 6,
-                Name = "Make-up",
-                QueueID = 1,
-                ParentID = 1,
-                IsDeleted = false,
-                CreatedDate = DateTime.Now,
-            };
-            builder.HasData(category1, category2, category3);
+            builder.HasData(category1, category2, Parent1, Paren2);
         }
     }
 }
