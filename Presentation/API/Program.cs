@@ -1,5 +1,7 @@
 using Persistence;
 using Application;
+using Mapper;
+
 namespace API
 {
     public class Program
@@ -24,6 +26,7 @@ namespace API
 
             builder.Services.AddPersistance(builder.Configuration);
             builder.Services.AddApplication();
+            builder.Services.AddCustomMapper();
 
             var app = builder.Build();
 

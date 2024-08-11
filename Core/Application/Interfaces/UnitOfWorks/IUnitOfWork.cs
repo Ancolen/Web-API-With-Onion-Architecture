@@ -10,9 +10,9 @@ namespace Application.Interfaces.UnitOfWorks
 {
     public interface IUnitOfWork : IAsyncDisposable
     {
-        IReadRepo<T> GetReadRepo<T>() where T : class, IEntityBase, new();
-        IWriteRepo<T> GetWriteRepo<T>() where T : class, IEntityBase, new();
-        Task<int> SaveAsync();
-        int Save();
+        IReadRepo <T>   GetReadRepo <T>() where T : class, IEntityBase, new();
+        IWriteRepo<T>   GetWriteRepo<T>() where T : class, IEntityBase, new();
+        Task      <int> SaveAsync();
+        int             Save();
     }
 }

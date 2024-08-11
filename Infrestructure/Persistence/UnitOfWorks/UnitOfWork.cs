@@ -18,10 +18,10 @@ namespace Persistence.UnitOfWorks
             this.dbContext = dBContext;
         }
 
-        public async ValueTask DisposeAsync() => await dbContext.DisposeAsync();
-        public int Save() => dbContext.SaveChanges();
-        public async Task<int> SaveAsync() => await dbContext.SaveChangesAsync();
-        IReadRepo<T> IUnitOfWork.GetReadRepo<T>() => new ReadRepository<T>(dbContext);
-        IWriteRepo<T> IUnitOfWork.GetWriteRepo<T>() => new WriteRepository<T>(dbContext);
+        public async  ValueTask   DisposeAsync()    => await dbContext.DisposeAsync();
+        public int                Save()            =>       dbContext.SaveChanges();
+        public async  Task<int>   SaveAsync()       => await dbContext.SaveChangesAsync();
+        IReadRepo <T> IUnitOfWork.GetReadRepo <T>() => new   ReadRepository <T>(dbContext);
+        IWriteRepo<T> IUnitOfWork.GetWriteRepo<T>() => new   WriteRepository<T>(dbContext);
     }
 }
