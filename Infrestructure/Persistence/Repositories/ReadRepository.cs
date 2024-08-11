@@ -38,12 +38,12 @@ namespace Persistence.Rpositories
 
         public async Task<IList<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, bool enableTracking = false)
         {
-            IQueryable<T> queryable = Table;
+            IQueryable<T> queryable              = Table;
 
-            if (!enableTracking) queryable = queryable.AsNoTracking(); //Takip etme kapalıysa değişiklik takibi devre dışı bırakılır
-            if (include is not null) queryable = include(queryable); //include sağlanmışsa varlıklar sorguya dahil edilir
+            if (!enableTracking)       queryable = queryable.AsNoTracking();   //Takip etme kapalıysa değişiklik takibi devre dışı bırakılır
+            if (include is not null)   queryable = include(queryable);         //include sağlanmışsa varlıklar sorguya dahil edilir
             if (predicate is not null) queryable = queryable.Where(predicate); // predicate sağlanmışsa buna uyan kayıtlar sorgulanır
-            if (orderBy is not null) //sağlandıysa sonuçlar liste olarak getirilir
+            if (orderBy is not null)                                           //sağlandıysa sonuçlar liste olarak getirilir
                 return await orderBy(queryable).ToListAsync();
             
             return await queryable.ToListAsync();
@@ -51,10 +51,10 @@ namespace Persistence.Rpositories
 
         public async Task<IList<T>> GetAllAsyncByPaging(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, bool enableTracking = false, int currentPage = 1, int pageSize = 3)
         {
-            IQueryable<T> queryable = Table;
+            IQueryable<T> queryable              = Table;
 
-            if (!enableTracking) queryable = queryable.AsNoTracking();
-            if (include is not null) queryable = include(queryable);
+            if (!enableTracking)       queryable = queryable.AsNoTracking();
+            if (include is not null)   queryable = include(queryable);
             if (predicate is not null) queryable = queryable.Where(predicate);
             if (orderBy is not null)
                 return await orderBy(queryable).Skip((currentPage - 1) * pageSize).Take(pageSize).ToListAsync(); // ilk 3 sonrasında diğer 3 sayfa diye devam eder
@@ -64,9 +64,9 @@ namespace Persistence.Rpositories
 
         public async Task<T> GetAsync(Expression<Func<T, bool>> predicate, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null, bool enableTracking = false)
         {
-            IQueryable<T> queryable = Table;
+            IQueryable<T> queryable            = Table;
 
-            if (!enableTracking) queryable = queryable.AsNoTracking();
+            if (!enableTracking)     queryable = queryable.AsNoTracking();
             if (include is not null) queryable = include(queryable);
 
             //queryable.Where(predicate);

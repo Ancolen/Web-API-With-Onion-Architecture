@@ -20,7 +20,8 @@ namespace Persistence
             services.AddDbContext<AppDBContext>(opt => opt.UseSqlServer(
                 configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped(typeof(IReadRepo<>), typeof(ReadRepository<>));
+            services.AddScoped(typeof(IReadRepo <>), typeof(ReadRepository <>));
+            services.AddScoped(typeof(IWriteRepo<>), typeof(WriteRepository<>));
         }
     }
 }
