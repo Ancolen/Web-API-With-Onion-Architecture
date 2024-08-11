@@ -1,4 +1,5 @@
 using Persistence;
+using Application;
 namespace API
 {
     public class Program
@@ -22,6 +23,7 @@ namespace API
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
             builder.Services.AddPersistance(builder.Configuration);
+            builder.Services.AddApplication();
 
             var app = builder.Build();
 
